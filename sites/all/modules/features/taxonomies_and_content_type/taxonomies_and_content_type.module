@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Taxonomies and Content Type feature.
+ */
+
+include_once 'taxonomies_and_content_type.features.inc';
