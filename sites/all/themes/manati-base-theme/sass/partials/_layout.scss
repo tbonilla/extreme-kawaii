@@ -36,7 +36,8 @@
 	}
 }
 
-.preview-product-item {
+.preview-product-item,
+.page-taxonomy .node-products-display {
 	@include span-columns(6);
 	@include omega(2n);
 

@@ -29,7 +29,9 @@
 	}
 }
 
-.title-product, .field-label, #block-views-related-products-block h2,
+.title-product,
+.field-type-text-with-summary .field-label,
+#block-views-related-products-block h2,
 .comment-wrapper .title {
 	@include font-size(24);
 	border-top: 1px dashed #88686C;
