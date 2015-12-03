@@ -174,27 +174,6 @@ function taxonomies_and_content_type_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_one-pieces:taxonomy/term/6
-  $menu_links['main-menu_one-pieces:taxonomy/term/6'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'taxonomy/term/6',
-    'router_path' => 'taxonomy/term/%',
-    'link_title' => 'One-Pieces',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'main-menu_one-pieces:taxonomy/term/6',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -45,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_categories:<front>',
-  );
   // Exported menu link: main-menu_shoes:taxonomy/term/8
   $menu_links['main-menu_shoes:taxonomy/term/8'] = array(
     'menu_name' => 'main-menu',
@@ -234,27 +213,6 @@ function taxonomies_and_content_type_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_categories:<front>',
-  );
-  // Exported menu link: main-menu_swimsuits:taxonomy/term/5
-  $menu_links['main-menu_swimsuits:taxonomy/term/5'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'taxonomy/term/5',
-    'router_path' => 'taxonomy/term/%',
-    'link_title' => 'Swimsuits',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'main-menu_swimsuits:taxonomy/term/5',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
     'customized' => 1,
     'parent_identifier' => 'main-menu_categories:<front>',
   );
@@ -380,26 +338,6 @@ function taxonomies_and_content_type_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-tags_one-pieces:taxonomy/term/6
-  $menu_links['menu-tags_one-pieces:taxonomy/term/6'] = array(
-    'menu_name' => 'menu-tags',
-    'link_path' => 'taxonomy/term/6',
-    'router_path' => 'taxonomy/term/%',
-    'link_title' => 'One-Pieces',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-tags_one-pieces:taxonomy/term/6',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -45,
-    'customized' => 1,
-  );
   // Exported menu link: menu-tags_shoes:taxonomy/term/8
   $menu_links['menu-tags_shoes:taxonomy/term/8'] = array(
     'menu_name' => 'menu-tags',
@@ -438,26 +376,6 @@ function taxonomies_and_content_type_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-tags_swimsuits:taxonomy/term/5
-  $menu_links['menu-tags_swimsuits:taxonomy/term/5'] = array(
-    'menu_name' => 'menu-tags',
-    'link_path' => 'taxonomy/term/5',
-    'router_path' => 'taxonomy/term/%',
-    'link_title' => 'Swimsuits',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-tags_swimsuits:taxonomy/term/5',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-tags_tights-socks:taxonomy/term/7
@@ -511,10 +429,8 @@ function taxonomies_and_content_type_menu_default_menu_links() {
   t('Dresses');
   t('Home');
   t('How to buy?');
-  t('One-Pieces');
   t('Shoes');
   t('Sweaters');
-  t('Swimsuits');
   t('Tights-Socks');
   t('Tops');
 

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sales Slideshow feature.
+ */
+
+include_once 'sales_slideshow.features.inc';

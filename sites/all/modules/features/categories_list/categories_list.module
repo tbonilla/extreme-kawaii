@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Categories List feature.
+ */
+
+include_once 'categories_list.features.inc';
