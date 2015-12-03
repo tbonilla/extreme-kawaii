@@ -97,6 +97,31 @@ td {
 }
 
 /*
+ * Footer Social Options
+*/
+
+.social-nav {
+	margin-top: 10px;
+	font-weight: bold;
+	display: block;
+
+	li {
+		display: inline-block;
+		vertical-align: -webkit-baseline-middle;
+	}
+
+	.log-in {
+		color: #8CD9D3;
+		margin-right: 10px;
+		border-bottom: 3px solid #8CD9D3;
+	}
+
+	@media (min-width: 720px) {
+		float: right;
+	}
+}
+
+/*
  * Log in Block User
 */
 

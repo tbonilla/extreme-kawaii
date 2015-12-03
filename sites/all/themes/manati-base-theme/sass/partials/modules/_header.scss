@@ -65,7 +65,8 @@
 }
 
 .block-search input[type=text],
-.block-user input[type=text] {
+.block-user input[type=text],
+.block-user input[type=password],{
 	@include font-size(18);
 	background: none;
 	border: 1px solid #FACAD0;

@@ -488,6 +488,24 @@ td {
   text-align: center; }
 
 /*
+ * Footer Social Options
+*/
+.social-nav {
+  margin-top: 10px;
+  font-weight: bold;
+  display: block; }
+  .social-nav li {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle; }
+  .social-nav .log-in {
+    color: #8CD9D3;
+    margin-right: 10px;
+    border-bottom: 3px solid #8CD9D3; }
+  @media (min-width: 720px) {
+    .social-nav {
+      float: right; } }
+
+/*
  * Log in Block User
 */
 .block-user {
@@ -531,7 +549,8 @@ td {
 
 .main-content,
 .header,
-.view-categories-list {
+.view-categories-list,
+footer {
   background: #F8F8F6;
   margin: 0 auto;
   max-width: 1200px;
@@ -540,7 +559,8 @@ td {
   @media (min-width: 1200px) {
     .main-content,
     .header,
-    .view-categories-list {
+    .view-categories-list,
+    footer {
       padding: 0 2%; } }
 
 .above-content {
@@ -661,7 +681,8 @@ td {
       margin: 20px 0; } }
 
 .block-search input[type=text],
-.block-user input[type=text] {
+.block-user input[type=text],
+.block-user input[type=password] {
   font-size: 18px;
   font-size: 1.8rem;
   background: none;
