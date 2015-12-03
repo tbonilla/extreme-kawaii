@@ -27,8 +27,8 @@
 	@include outer-container;
 }
 
-.media-product,
-.details-product {
+.view-mode-full .group-left,
+.view-mode-full .group-right {
 	@include span-columns(12);
 
 	@include media($desktop) {

@@ -2,40 +2,13 @@
 // Product Page Style
 //
 
-.image-product {
-	margin-bottom: 40px;
-	text-align: center;
-}
-
-.main-image-product {
-	margin: 10px auto;
-}
-
-.embed-container {
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-	position: relative;
-	padding-bottom: 56.25%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-}
-
 .rating-product li{
 	margin: 10px 0;
 }
 
-.node-type-products-display {
+.node-products-display .group-right {
 	border-left: 1px dashed #88686C;
-	text-align: center;
+	text-align: left;
 
 	h1 {
 		display: none;
@@ -58,10 +31,11 @@
 	}
 }
 
-.title-product {
+.title-product, .field-label,
+.group-footer h2 {
 	@include font-size(24);
 	border-top: 1px dashed #88686C;
-	margin-top: 25px;
+	margin: 25px 0;
 	padding: 20px 10px;
 	text-align: left;
 

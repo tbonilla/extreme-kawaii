@@ -549,24 +549,24 @@ td {
     content: "";
     display: table; }
 
-.media-product,
-.details-product {
+.view-mode-full .group-left,
+.view-mode-full .group-right {
   float: left;
   display: block;
   margin-right: 2.3576515979%;
   width: 100%; }
-  .media-product:last-child,
-  .details-product:last-child {
+  .view-mode-full .group-left:last-child,
+  .view-mode-full .group-right:last-child {
     margin-right: 0; }
   @media screen and (min-width: 720px) {
-    .media-product,
-    .details-product {
+    .view-mode-full .group-left,
+    .view-mode-full .group-right {
       float: left;
       display: block;
       margin-right: 2.3576515979%;
       width: 48.821174201%; }
-      .media-product:last-child,
-      .details-product:last-child {
+      .view-mode-full .group-left:last-child,
+      .view-mode-full .group-right:last-child {
         margin-right: 0; } }
 
 .preview-product-item {
@@ -774,64 +774,50 @@ li.expanded {
     max-height: 360px;
     overflow: hidden; }
 
-.image-product {
-  margin-bottom: 40px;
-  text-align: center; }
-
-.main-image-product {
-  margin: 10px auto; }
-
-.embed-container {
-  height: 0;
+.view-top-products {
+  background-color: rgba(250, 202, 208, 0.5);
   overflow: hidden;
-  max-width: 100%;
-  position: relative;
-  padding-bottom: 56.25%; }
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%; }
+  padding-top: 2%;
+  margin-bottom: 3%; }
 
 .rating-product li {
   margin: 10px 0; }
 
-.node-type-products-display {
+.node-products-display .group-right {
   border-left: 1px dashed #88686C;
-  text-align: center; }
-  .node-type-products-display h1 {
+  text-align: left; }
+  .node-products-display .group-right h1 {
     display: none; }
-  .node-type-products-display .name-product {
+  .node-products-display .group-right .name-product {
     font-size: 30px;
     font-size: 3rem;
     margin: 10px 0; }
-  .node-type-products-display h3 {
+  .node-products-display .group-right h3 {
     font-size: 18px;
     font-size: 1.8rem; }
-    .node-type-products-display h3 span {
+    .node-products-display .group-right h3 span {
       font-size: 24px;
       font-size: 2.4rem; }
   @media (min-width: 720px) {
-    .node-type-products-display {
+    .node-products-display .group-right {
       padding-left: 30px; } }
 
-.title-product {
+.title-product, .field-label,
+.group-footer h2 {
   font-size: 24px;
   font-size: 2.4rem;
   border-top: 1px dashed #88686C;
-  margin-top: 25px;
+  margin: 25px 0;
   padding: 20px 10px;
   text-align: left; }
-  .title-product:before {
+  .title-product:before, .field-label:before,
+  .group-footer h2:before {
     content: url("../img/heart-brown.png");
     display: inline-block;
     transform: rotate(-31deg); }
   @media (min-width: 720px) {
-    .title-product {
+    .title-product, .field-label,
+    .group-footer h2 {
       padding: 20px 0; } }
 
 .page-taxonomy .title {
