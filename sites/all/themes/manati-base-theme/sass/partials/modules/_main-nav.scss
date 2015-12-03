@@ -1,0 +1,90 @@
+//
+// Main Nav Styles
+//
+
+.main-nav-mobile {
+	background: #a2c3c0;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: -3px;
+	padding: 10px 16px;
+
+	@media (min-width: 720px) {
+		display: none;
+	}
+}
+
+.block-menu {
+
+	a {
+		@include font-size(16);
+		border-bottom: 2px solid #A2C3C0;
+		font-family: $title-san-serif;
+		text-transform: uppercase;
+	}
+
+	.active {
+		color: #88686C;
+	}
+
+	.log-in {
+		text-align: center;
+	}
+
+	.cart {
+		display: block;
+	}
+
+	@media (min-width: 720px) {
+		margin: 20px 0;
+		overflow: hidden;
+		position: relative;
+
+		.expanded {
+			height: 23px;
+			transition: all .35s ease;
+		}
+
+		.expanded:hover {
+			height: 90px;
+		}
+
+		.expanded .menu {
+			height: 72px;
+			padding-top: 19px;
+			position: absolute;
+			margin: 0 auto;
+			width: 100%;
+
+			li.leaf {
+				padding: 0 14px;
+			}
+		}
+
+		.log-in,
+		.cart {
+			display: none;
+		}
+	}
+}
+
+li.leaf ,
+li.expanded {
+	list-style-image: none !important;
+	list-style-type: none !important;
+	margin: 10px auto;
+	text-align: center;
+
+	@media (min-width: 720px) {
+		display: inline-block;
+		float: left;
+		margin: 0;
+		padding: 0 25px;
+	}
+}
+
+.main-nav-search {
+	@media (min-width: 720px) {
+		float: right;
+	}
+}

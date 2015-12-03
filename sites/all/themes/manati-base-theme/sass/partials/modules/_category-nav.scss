@@ -1,0 +1,37 @@
+//
+// Category Nav Styles
+//
+.view-categories-list {
+	display: none;
+
+	@media (min-width: 720px) {
+		display: block;
+		padding-bottom: 30px;
+		text-align: center;
+		a {
+			@include font-size(18);
+		}
+	}
+
+	.item-list {
+		li {
+			display: block;
+			margin-right: 2.5%;
+			text-align: center;
+
+			@media (min-width: 720px) {
+				display: inline-block;
+			}
+		}
+
+		a {
+			font-family: $title-san-serif;
+			text-transform: uppercase;
+			border-bottom: 2px solid #facad0;
+		}
+
+		a:hover {
+			color: #FACAD0;
+		}
+	}
+}

@@ -51,7 +51,6 @@
 
   </div><!-- /header-content -->
 </header>
-
 <?php if ($page['above_content']): ?>
   <section class="above-content">
     <?php print render($page['above_content']); ?>

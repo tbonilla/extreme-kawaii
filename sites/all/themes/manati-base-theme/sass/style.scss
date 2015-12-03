@@ -7,17 +7,24 @@
 @import "bourbon";
 @import "neat";
 
-// Google fonts
-// ...
+
+// Reset
+
+@import "partials/normalize";
 
 // Parciales
 
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/placeholders";
+@import "partials/sprite";
 @import "partials/base";
-@import "partials/layout";
-@import "partials/components/forms/forms";
-@import "partials/components/forms/webforms";
 
-// @import ...
+@import "partials/layout";
+
+// Modules
+@import "partials/modules/header";
+@import "partials/modules/main-nav";
+@import "partials/modules/category-nav";
+@import "partials/modules/product-preview";
+@import "partials/modules/product";

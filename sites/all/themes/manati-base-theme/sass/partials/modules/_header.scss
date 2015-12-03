@@ -1,0 +1,80 @@
+//
+// Main Header Styles
+//
+
+.header-content {
+	position: relative;
+
+	#site-name a,
+	.site-name a {
+		background: url(../img/logo.png) no-repeat center center;
+		background-size: contain;
+		display: block;
+		margin: 4% 0;
+		text-indent: -9999px;
+		padding: 9% 0;
+	}
+
+	& > h1,
+	& > .site-name {
+		border-bottom: 2px dashed #A2C3C0;
+	}
+
+	.site-logo {
+		display: none;
+	}
+
+	.secondary-nav {
+		@media (max-width: 720px) {
+			display: none;
+		}
+	}
+}
+
+.secondary-nav {
+	display: block;
+	font-weight: bold;
+	margin-top: 10px;
+
+	li {
+		display: inline-block;
+		vertical-align: -webkit-baseline-middle;
+	}
+
+	.log-in {
+		border-bottom: 3px solid #8CD9D3;
+		color: #8CD9D3;
+		margin-right: 10px;
+	}
+
+	@media (min-width: 720px) {
+		position: absolute;
+		right: 20px;
+		top: 0;
+	}
+}
+
+.block-search form {
+	display: block;
+	text-align: center;
+
+	@media (min-width: 720px) {
+		float: right;
+		margin: 20px 0;
+	}
+}
+
+.block-search input[type=text] {
+	@include font-size(18);
+	background: none;
+	border: 1px solid #FACAD0;
+}
+
+.block-search input[type=submit] {
+	@include font-size(18);
+	background: #FACAD0;
+	border: 0;
+	color: #88686C;
+	font-family: $title-san-serif;
+	padding: 2px 10px;
+}

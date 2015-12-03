@@ -2,24 +2,32 @@
 // Variables
 //
 
-
-@import "bourbon";
-@import "neat";
-
 // Sprite
 $sprite-image: "../images/global-sprite";
 
 // Typography
+@import url(https://fonts.googleapis.com/css?family=Overlock:400,700,900|Oxygen:300,700);
 
+$title-san-serif: "Overlock";
+$text-serif: "Oxygen";
 
 // Colors
-
+$content-background: #F8F8F6;
+$dark-dashed-lines: #88686C;
+$light-dashed-lines: #A2C3C0;
+$main-nav-underline: #A2C3C0;
+$sub-nav-underline: #FACAD0;
+$text-san-serif-color: #88686C;
+$text-serif-color: #555555;
+$text-hover-color: #FACAD0;
 
 // Neat variables
+
 $max-width: 1200px;
 $grid-colums: 12;
+$desktop-size: 720px;
 
 // Breakpoints
-$desktop: new-breakpoint(max-width 1000px 12);
-$tablet: new-breakpoint(max-width 700px 9);
-$mobile: new-breakpoint(max-width 500px 4);
+$desktop: new-breakpoint(min-width $desktop-size);
+$tablet: 700px;
+$mobile-large: 500px;

@@ -1,0 +1,122 @@
+//
+// Product Page Style
+//
+
+.image-product {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.main-image-product {
+	margin: 10px auto;
+}
+
+.embed-container {
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.rating-product li{
+	margin: 10px 0;
+}
+
+.node-type-products-display {
+	border-left: 1px dashed #88686C;
+	text-align: center;
+
+	h1 {
+		display: none;
+	}
+
+	.name-product {
+		@include font-size(30);
+		margin: 10px 0;
+	}
+
+	h3 {
+		@include font-size(18);
+		span {
+			@include font-size(24);
+		}
+	}
+
+	@media (min-width: 720px) {
+		padding-left: 30px;
+	}
+}
+
+.title-product {
+	@include font-size(24);
+	border-top: 1px dashed #88686C;
+	margin-top: 25px;
+	padding: 20px 10px;
+	text-align: left;
+
+	&:before {
+		content: url("../img/heart-brown.png");
+		display: inline-block;
+		transform: rotate(-31deg);
+	}
+
+	@media (min-width: 720px) {
+		padding: 20px 0;
+	}
+}
+
+.page-taxonomy .title {
+	margin: 30px;
+	text-align: left;
+	text-transform: uppercase;
+
+	&:before,
+	&:after {
+		content: url("../img/heart-brown.png");
+		display: inline-block;
+	}
+
+	&:before {
+		margin-right: 15px;
+		transform: rotate(-31deg);
+	}
+
+	&:after {
+		margin-left: 15px;
+		transform: rotate(31deg);
+	}
+
+	@media (min-width: 1200px) {
+		margin: 30px 0;
+	}
+}
+
+.review-user {
+	@include font-size(18);
+	@include span-columns(3);
+	font-family: $title-san-serif;
+	text-align: center;
+}
+
+.review-content {
+	@include omega();
+	@include span-columns(9);
+	text-align: left;
+}
+
+.review-section .review-product {
+	border-bottom: 1px dashed #FACAD0;
+	margin-bottom: 40px;
+	padding: 19px 0;
+}
