@@ -597,17 +597,6 @@ td {
       .preview-product-item:nth-child(3n+1) {
         clear: left; } }
 
-.colums-slider {
-  display: inline-block;
-  width: 32%; }
-
-/*
- * Style for Silder Home
-*/
-.slider {
-  background: #facad0;
-  height: 400px; }
-
 .header-content {
   position: relative; }
   .header-content #site-name a,
@@ -780,14 +769,12 @@ li.expanded {
   padding-top: 2%;
   margin-bottom: 3%; }
 
-.rating-product li {
-  margin: 10px 0; }
+.node-type-products-display h1 {
+  display: none; }
 
 .node-products-display .group-right {
   border-left: 1px dashed #88686C;
   text-align: left; }
-  .node-products-display .group-right h1 {
-    display: none; }
   .node-products-display .group-right .name-product {
     font-size: 30px;
     font-size: 3rem;
@@ -802,22 +789,27 @@ li.expanded {
     .node-products-display .group-right {
       padding-left: 30px; } }
 
-.title-product, .field-label,
-.group-footer h2 {
+.title-product, .field-label, #block-views-related-products-block h2,
+.comment-wrapper .title {
   font-size: 24px;
   font-size: 2.4rem;
   border-top: 1px dashed #88686C;
   margin: 25px 0;
   padding: 20px 10px;
-  text-align: left; }
-  .title-product:before, .field-label:before,
-  .group-footer h2:before {
+  text-align: left;
+  text-align: left;
+  width: 100%;
+  font-family: "Overlock";
+  font-weight: normal;
+  color: #88686C; }
+  .title-product:before, .field-label:before, #block-views-related-products-block h2:before,
+  .comment-wrapper .title:before {
     content: url("../img/heart-brown.png");
     display: inline-block;
     transform: rotate(-31deg); }
   @media (min-width: 720px) {
-    .title-product, .field-label,
-    .group-footer h2 {
+    .title-product, .field-label, #block-views-related-products-block h2,
+    .comment-wrapper .title {
       padding: 20px 0; } }
 
 .page-taxonomy .title {
@@ -859,7 +851,7 @@ li.expanded {
   .review-content:last-child {
     margin-right: 0; }
 
-.review-section .review-product {
+.comment-wrapper .view-mode-full {
   border-bottom: 1px dashed #FACAD0;
   margin-bottom: 40px;
   padding: 19px 0; }
