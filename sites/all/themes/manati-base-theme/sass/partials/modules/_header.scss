@@ -64,13 +64,15 @@
 	}
 }
 
-.block-search input[type=text] {
+.block-search input[type=text],
+.block-user input[type=text] {
 	@include font-size(18);
 	background: none;
 	border: 1px solid #FACAD0;
 }
 
-.block-search input[type=submit] {
+.block-search input[type=submit],
+.block-user input[type=submit] {
 	@include font-size(18);
 	background: #FACAD0;
 	border: 0;

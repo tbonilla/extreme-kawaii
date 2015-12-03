@@ -488,6 +488,15 @@ td {
   text-align: center; }
 
 /*
+ * Log in Block User
+*/
+.block-user {
+  position: absolute;
+  top: 0;
+  background: rgba(250, 202, 208, 0.5);
+  padding: 10px; }
+
+/*
  * Rules for base drupal elements
  */
 .tabs {
@@ -651,13 +660,15 @@ td {
       float: right;
       margin: 20px 0; } }
 
-.block-search input[type=text] {
+.block-search input[type=text],
+.block-user input[type=text] {
   font-size: 18px;
   font-size: 1.8rem;
   background: none;
   border: 1px solid #FACAD0; }
 
-.block-search input[type=submit] {
+.block-search input[type=submit],
+.block-user input[type=submit] {
   font-size: 18px;
   font-size: 1.8rem;
   background: #FACAD0;
@@ -848,28 +859,6 @@ li.expanded {
   @media (min-width: 1200px) {
     .page-taxonomy .title {
       margin: 30px 0; } }
-
-.review-user {
-  font-size: 18px;
-  font-size: 1.8rem;
-  float: left;
-  display: block;
-  margin-right: 2.3576515979%;
-  width: 23.2317613015%;
-  font-family: "Overlock";
-  text-align: center; }
-  .review-user:last-child {
-    margin-right: 0; }
-
-.review-content {
-  margin-right: 0;
-  float: left;
-  display: block;
-  margin-right: 2.3576515979%;
-  width: 74.4105871005%;
-  text-align: left; }
-  .review-content:last-child {
-    margin-right: 0; }
 
 .comment-wrapper .view-mode-full {
   border-bottom: 1px dashed #FACAD0;

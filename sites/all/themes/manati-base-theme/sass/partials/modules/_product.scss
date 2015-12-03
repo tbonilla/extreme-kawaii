@@ -81,19 +81,6 @@
 	}
 }
 
-.review-user {
-	@include font-size(18);
-	@include span-columns(3);
-	font-family: $title-san-serif;
-	text-align: center;
-}
-
-.review-content {
-	@include omega();
-	@include span-columns(9);
-	text-align: left;
-}
-
 .comment-wrapper .view-mode-full {
 	border-bottom: 1px dashed #FACAD0;
 	margin-bottom: 40px;

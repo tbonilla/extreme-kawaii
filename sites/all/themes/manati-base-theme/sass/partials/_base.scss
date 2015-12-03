@@ -96,6 +96,16 @@ td {
 	text-align: center;
 }
 
+/*
+ * Log in Block User
+*/
+
+.block-user {
+	position: absolute;
+	top: 0;
+	background: $pink-background;
+	padding: 10px;
+}
 
 /*
  * Rules for base drupal elements
